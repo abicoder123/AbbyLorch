@@ -1,3 +1,4 @@
+```html
 <div class="left-box">
 	<div class="typing-container1">
 		<p class="typing-text1">My name is Abby Lorch</p>
@@ -13,25 +14,40 @@
 
 		<br><br>
 
-    As a violinist and vocalist, Abby has given numerous performances throughout Iowa at community events,
-    festivals, and special programs, including the Iowa City Arts Festival and the Old Threshers Reunion.
-    In addition to theater and music, Abby is a hardworking and talented dancer who is always striving
-    to become stronger and improve her skills. Whether she is acting, dancing, singing, or playing the
-    violin, Abby approaches every opportunity with enthusiasm, dedication, and a love for performing.
-    She looks forward to continuing to grow as an artist while sharing her passion for the performing arts
-    with others.
-  </p>
+		As a violinist and vocalist, Abby has given numerous performances throughout Iowa at community events,
+		festivals, and special programs, including the Iowa City Arts Festival and the Old Threshers Reunion.
+		In addition to theater and music, Abby is a hardworking and talented dancer who is always striving
+		to become stronger and improve her skills. Whether she is acting, dancing, singing, or playing the
+		violin, Abby approaches every opportunity with enthusiasm, dedication, and a love for performing.
+		She looks forward to continuing to grow as an artist while sharing her passion for the performing arts
+		with others.
+	</p>
 </div>
 
 <div class="right-box">
 	<div class="photo-gallery">
-		<img src="https://scontent.fmli2-1.fna.fbcdn.net/v/t51.82787-15/723066940_18597963973053228_2362734620094807910_n.jpg?stp=dst-jpg_tt6&cstp=mx2731x1820&ctp=s2731x1820&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VVRnRVCKcagQ7kNvwEa7WNX&_nc_oc=AdqOnbqunLkvVGSQagnytFiFQxqHD0EJ4LIXTuCQ1pTdoqGAVIYm__UfgDajsODUhkE&_nc_zt=23&_nc_ht=scontent.fmli2-1.fna&_nc_gid=Y-hPfb2eFw7Qfelcoyjw0g&_nc_ss=7b289&oh=00_AQBhQI8xPgl1czHM_R2Y4wQoLnfw-uNb36t0j2k8XcI3iA&oe=6A56C089" alt="Abby performing">
 
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFHsh2LHzVf1wkTKj30nalCP-FV04h8gOgEsEz2Z4zw&s=10" alt="Abby">
+		<img
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFHsh2LHzVf1wkTKj30nalCP-FV04h8gOgEsEz2Z4zw&s=10"
+			alt="Abby performing"
+		>
 
-		<style>
+		<img
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFHsh2LHzVf1wkTKj30nalCP-FV04h8gOgEsEz2Z4zw&s=10"
+			alt="Abby"
+		>
+
+	</div>
+</div>
+
+<style>
 body {
-  background-image: url(https://scontent.fmli2-1.fna.fbcdn.net/v/t39.30808-6/724505286_1627157509411097_3109579968258157235_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0ednRiSdIjQQ7kNvwFEHWgr&_nc_oc=AdrNF1o8Fk638PIS5ljvy47i6aAfzPJjd2N5CQRARMfyFWyXjSn2uVKpL9iuPOWQF0s&_nc_zt=23&_nc_ht=scontent.fmli2-1.fna&_nc_gid=xBh27XVeXnsu5iykTlkYVg&_nc_ss=7b289&oh=00_AQDeiFP37zusoO9l4SYjjsJ9LTtm9F6emLazktHHmh_Fzg&oe=6A56C7E3);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFHsh2LHzVf1wkTKj30nalCP-FV04h8gOgEsEz2Z4zw&s=10");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 .bio {
@@ -47,99 +63,121 @@ body {
 .typing-text1 {
   color: white;
 
-  white-space: nowrap; 
-  overflow: hidden; 
+  white-space: nowrap;
+  overflow: hidden;
 
-  width: 0; 
+  width: 0;
 
-  font-family: monospace; 
+  font-family: monospace;
   font-size: 24px;
 
-  animation: typing 3s steps(88, end) forwards, 
+  animation: typing 3s steps(88, end) forwards,
              blink 0.75s step-start infinite;
-  
 
-  border-right: 3px solid white; 
+  border-right: 3px solid white;
 }
 
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 
 @keyframes blink {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: white;
+  }
 }
+
 
 .left-box,
-.right-box{
-    position:fixed;
-    top:50%;
-    transform:translateY(-50%);
-    width:38%;
-    max-width:500px;
-    padding:25px;
-    background:rgba(255,255,255,.15);
-    backdrop-filter:blur(12px);
-    border-radius:20px;
-    box-shadow:0 8px 25px rgba(0,0,0,.3);
-    animation-duration:1.2s;
-    animation-fill-mode:forwards;
+.right-box {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38%;
+    max-width: 500px;
+    padding: 25px;
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.3);
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
 }
 
-.left-box{
-    left:40px;
-    transform:translate(-120%, -50%);
-    animation-name:slideLeft;
+.left-box {
+    left: 40px;
+    transform: translate(-120%, -50%);
+    animation-name: slideLeft;
 }
 
-.right-box{
-    right:40px;
-    transform:translate(120%, -50%);
-    animation-name:slideRight;
+.right-box {
+    right: 40px;
+    transform: translate(120%, -50%);
+    animation-name: slideRight;
 }
 
-@keyframes slideLeft{
-    to{
-        transform:translate(0,-50%);
+
+@keyframes slideLeft {
+    to {
+        transform: translate(0,-50%);
     }
 }
 
-@keyframes slideRight{
-    to{
-        transform:translate(0,-50%);
+
+@keyframes slideRight {
+    to {
+        transform: translate(0,-50%);
     }
 }
 
-.carousel{
-    width:100%;
-    aspect-ratio:4/3;
-    overflow:hidden;
-    border-radius:15px;
+
+.carousel {
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
-.carousel img{
-    width:100%;
-    display:none;
+
+.carousel img {
+    width: 100%;
+    display: none;
 }
 
-.carousel img:first-child{
-    display:block;
+
+.carousel img:first-child {
+    display: block;
 }
+
+
 .photo-gallery {
     display: grid;
     gap: 20px;
 }
 
+
 .photo-gallery img {
     width: 100%;
-    height: 340px;          
+    height: 340px;
     object-fit: cover;
-    object-position: center 15%; 
+    object-position: center 15%;
     border-radius: 18px;
     display: block;
 }
-    </style>
+</style>
+
+
+
